@@ -1,0 +1,39 @@
+# Nmap 7.80 scan initiated Wed Feb 15 16:50:01 2023 as: nmap -oN /var/www/html/nmap.html 192.168.1.0/24
+Nmap scan report for Tenda.Home (192.168.1.1)
+Host is up (0.015s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+23/tcp   filtered telnet
+80/tcp   open     http
+443/tcp  open     https
+5431/tcp open     park-agent
+MAC Address: CC:2D:21:AD:9B:00 (Tenda Technology,Ltd.Dongguan branch)
+
+Nmap scan report for DESKTOP-1H4U0KT (192.168.1.2)
+Host is up (0.015s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+5357/tcp open  wsdapi
+MAC Address: D4:5D:64:3E:15:C7 (Asustek Computer)
+
+Nmap scan report for Honor_6X (192.168.1.4)
+Host is up (0.030s latency).
+All 1000 scanned ports on Honor_6X (192.168.1.4) are closed
+MAC Address: EC:89:14:29:52:E6 (Huawei Technologies)
+
+Nmap scan report for simo (192.168.1.5)
+Host is up (0.000010s latency).
+Not shown: 996 closed ports
+PORT     STATE    SERVICE
+22/tcp   open     ssh
+80/tcp   open     http
+5000/tcp filtered upnp
+8080/tcp open     http-proxy
+
+# Nmap done at Wed Feb 15 16:50:07 2023 -- 256 IP addresses (4 hosts up) scanned in 6.21 seconds
